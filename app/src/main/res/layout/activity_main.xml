@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/button_ll">
+        <Button
+            android:id="@+id/scen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/buttonBarStyle"
+            android:clickable="true"
+            android:background="@color/colorAccent"
+            android:text="Scenario" />
+        <Button
+            android:id="@+id/defects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarStyle"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Defects" />
+        <Button
+            android:id="@+id/graph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonBarStyle"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:text="Graph" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_ll"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/button_ll">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bridge Cases"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"/>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/text_ll"
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/od"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/workaround"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/perc"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/pgt"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/scen"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/ceas"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/cldef"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/just"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"
+        android:layout_weight="0.32" />
+
+    <TextView
+        android:id="@+id/comm"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"
+        android:layout_weight="0.32" />
+
+    <TextView
+        android:id="@+id/prop"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"
+        android:layout_weight="0.32" />
+
+    <TextView
+        android:id="@+id/stat"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"
+        android:layout_weight="0.32" />
+
+    <TextView
+        android:id="@+id/sn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/lordid"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/rag"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:fontFamily="Lucida Sans"
+        android:gravity="center_vertical"/>
+</LinearLayout>
